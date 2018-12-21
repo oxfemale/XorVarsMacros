@@ -36,4 +36,4 @@ Function crypt string
 
     char* CryptedVarAgain = ProtectedString.crypt();
     printf("crypted again: %s\r\n", CryptedVarAgain);
-```cpp
+```
