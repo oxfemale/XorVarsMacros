@@ -4,13 +4,14 @@ The macro example encrypts string variables before the code build process. With 
 <br>
 EXEMPLE USE:<br>
 <br>
+
 ```cpp
 /*
 Macros make string protected in code
 */
     HideString(ProtectedString, "Nigga I done steal ya bikezz");
 ```
-<br>
+
 ```cpp
 /*
 Function get crypted string
@@ -18,7 +19,7 @@ Function get crypted string
     char* CryptedVar = ProtectedString.get();
     printf("crypted: %s\r\n", CryptedVar);
 ```
-<br>
+
 ```cpp
 /*
 Function decrypt string
@@ -26,7 +27,8 @@ Function decrypt string
     char* DeCryptedVar = ProtectedString.decrypt();   
     printf("decrypted: %s\r\n", DeCryptedVar);
 ```
-<br>
+
+
 ```cpp
 /*
 Function crypt string
